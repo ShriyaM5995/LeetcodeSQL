@@ -1,0 +1,6 @@
+1757. Recyclable and Low Fat Products: select product_id from Products where low_fats='Y' and recyclable='Y'
+584. Find Customer Referee: select name from Customer where referee_id <>2 or referee_id IS NULL --------------(IS NULL condition is important otherwise output will not return null records for referee_id
+595. Big Countries: select name from Customer where referee_id <>2 or referee_id IS NULL
+1148. Article Views I: select distinct (author_id) as id from Views where author_id= viewer_id order by author_id asc
+1683. Invalid Tweets: select tweet_id from Tweets where length(content)>15
+
